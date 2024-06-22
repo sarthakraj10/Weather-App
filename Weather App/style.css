@@ -1,0 +1,134 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: cursive, sans-serif;
+    box-sizing: border-box;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+body
+{
+    height: 100vh;
+    background-image: linear-gradient(135deg,#00feba,#5b548a);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card
+{
+    padding: 40px 35px;
+    background-color: rgba(0,0,0,0.3);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.748), 0 4px 8px 0 rgba(0, 0, 0, 0.767);
+    text-align: center;
+    border-radius: 10px;
+}
+.search
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input
+{
+    letter-spacing: 1px;
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    color: #00836f;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button
+{ 
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img
+{
+    width: 30px;
+}
+.weather-icon
+{
+    width: 170px;
+}
+.weather h1{
+    font-size: 80px;
+}
+.weather h3
+{
+    color: rgb(186, 255, 249);
+    font-size: 45px;
+    margin-top: -10px;
+}
+.details
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col
+{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img
+{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity .wind
+{
+    font-size: 28px;
+    margin-top: -6px;
+    font-weight: 700;
+}
+.weather
+{
+    display: none;
+}
+.error
+{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+.feels-like,.feel
+{
+    color: rgb(255, 255, 130);
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.wind-speed,.humid
+{
+    color: rgb(186, 255, 249);
+}
+h4
+{
+    color: rgb(255, 255, 130);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;   
+}
+.search button:hover
+{
+    background-color: rgb(186, 255, 249);
+}
