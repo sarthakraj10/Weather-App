@@ -11,7 +11,7 @@
 body
 {
     height: 100vh;
-    background-image: linear-gradient(135deg,#00feba,#5b548a);
+    background-image: linear-gradient(135deg,#ffb5f6,#e11fff);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -24,7 +24,6 @@ body
     background-color: rgba(0,0,0,0.3);
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.748), 0 4px 8px 0 rgba(0, 0, 0, 0.767);
     text-align: center;
-    border-radius: 10px;
 }
 .search
 {
@@ -51,14 +50,19 @@ body
 { 
     border: 0;
     outline: 0;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
     cursor: pointer;
-}
-.search button img
-{
-    width: 30px;
+    height: 60px;
+    letter-spacing: 1px;
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    color: #36256e;
+    padding: 7px 20px;
+    border-radius: 30px;
+    margin-right: 16px;
+    font-size: 18px;
+    align-items: center;
+
 }
 .weather-icon
 {
